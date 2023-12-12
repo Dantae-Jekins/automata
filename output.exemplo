@@ -1,0 +1,30 @@
+# Alfabeto:
+A a b 
+
+# Estados:
+Q B ACD CD D C A AC 
+
+# Estado Inicial:
+q A 
+
+# Estados Finais:
+F ACD D CD 
+
+# Transicoes
+T A a A
+T A b AC
+T C b CD
+T D a CD
+T AC a A
+T AC b ACD
+T CD a CD
+T CD b CD
+T ACD a ACD
+T ACD b ACD
+
+
+# Palavras
+M aceita a palavra <abababbababa>
+M rejeita a palavra <aaabaababaa>
+M aceita a palavra <abb>
+M rejeita a palavra <abab>
